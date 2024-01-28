@@ -72,7 +72,8 @@ let showWinner=(userWin)=>{
         compScore++;
         compScorePara.innerText=compScore;
         
-        msg.innerText="You lose.";
+        msg.innerText="You lose. Computer Choose";
+        msg.innerText=msg.innerText+" "+genCompChoice();
         msg.style.backgroundColor="red";
         loseSound.play();
     }
