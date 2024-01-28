@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scissors Paper Rock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Scissors Paper Rock</h1>
+    <div class="conatiner">
+      <div class="choices" onclick="audio.play()">
+        <div class="choice" id="paper">
+          <img src="images/paper.png" alt="" />
+        </div>
+        <div class="choice" id="rock">
+          <img src="images/rock.png" alt="" />
+        </div>
+        <div class="choice" id="scissors">
+          <img src="images/scissors.png" alt="" />
+        </div>
+      </div>
+
+      <div class="score-board">
+        <div class="score">
+          <p id="user-score">0</p>
+          <p>You</p>
+        </div>
+        <div class="score">
+          <p id="comp-score">0</p>
+          <p>Computer</p>
+        </div>
+      </div>
+
+      <div class="msg-conatiner">
+        <p id="msg">Your Turn</p>
+      </div>
+    </div>
+    <footer>Copyright@2024. Created by Bipin Tiwari</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
